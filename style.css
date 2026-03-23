@@ -357,6 +357,46 @@ h2 {
     font-weight: 700;
 }
 
+.anonymous-form {
+    margin-top: 1.5rem;
+    padding: 1.2rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+}
+
+.anonymous-form p {
+    margin-top: 0;
+    color: var(--text-soft);
+}
+
+.consultation-form {
+    display: grid;
+    gap: 0.65rem;
+    max-width: 540px;
+}
+
+.consultation-form label {
+    font-weight: 600;
+    color: var(--text-soft);
+}
+
+.consultation-form input {
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.7rem 0.8rem;
+    font: inherit;
+    color: var(--text);
+    background: #fff;
+}
+
+.consultation-form button {
+    width: fit-content;
+    margin-top: 0.35rem;
+}
+
 .article-card {
     background: var(--surface);
     border: 1px solid var(--line);
